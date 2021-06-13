@@ -9,7 +9,6 @@ const PORT = process.env.PORT || 3000
 app.get('/*', (req, res) => {
     res.set('Content-Type', 'text/html')
     res.send(Buffer.from(`
-        <head>
         <script src="https://gist-it.appspot.com/${req.params['0']}?footer=minimal"></script>
         <script>
             const body = document.getElementsByTagName('body')[0]
@@ -23,7 +22,6 @@ app.get('/*', (req, res) => {
             const gistMeta = document.getElementsByClassName('gist-meta')[0]
             gistMeta.style.cssText = 'height:100%;'
         </script>
-        </head>
     `))
 })
 
