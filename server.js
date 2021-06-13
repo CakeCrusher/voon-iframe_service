@@ -10,7 +10,7 @@ app.get('/*', (req, res) => {
     res.set('Content-Type', 'text/html')
     res.send(Buffer.from(`
         <head>
-        <script src="http://gist-it.appspot.com/${req.params['0']}?footer=minimal"></script>
+        <script src="https://gist-it.appspot.com/${req.params['0']}?footer=minimal"></script>
         <script>
             const body = document.getElementsByTagName('body')[0]
             body.style.cssText = 'margin:0;overflow:hidden'
