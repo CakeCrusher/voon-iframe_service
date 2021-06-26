@@ -20,7 +20,7 @@ app.get('/*', (req, res) => {
             const gistData = document.getElementsByClassName('gist-data')[0]
             gistData.style.cssText = 'height:100%;'
             const gistMeta = document.getElementsByClassName('gist-meta')[0]
-            gistMeta.style.cssText = 'height:100%;'
+            gistMeta.style.cssText = 'padding-bottom:50px;height:100%;'
         </script>
     `))
 })
