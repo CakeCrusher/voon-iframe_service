@@ -1,6 +1,6 @@
-# Voon: Extension client
+# Voon: Iframe service
 
-## Getting Started with Extension client
+## Getting Started with Iframe service
 
 1. run `npm install && npm run start-dev`
 
